@@ -1,26 +1,25 @@
 let modInfo = {
 	name: "The Tree of Guilds",
 	id: "treeofguilds",
-	author: "Lumbro and Pyrocon",
+	author: "PaulyDock and Pyrocon",
 	pointsName: "experience",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	initialStartPoints: new Decimal (0), // Used for hard resets and new players
+	offlineLimit: 0,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.0.1",
+	name: "Initial Version",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
-	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.`
+	<h3>v0.0.1</h3><br>
+		- Initial version.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
